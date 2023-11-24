@@ -1,4 +1,4 @@
-import random
+import 
 import string
 
 class HospitalETicketSystem:
