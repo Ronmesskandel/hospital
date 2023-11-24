@@ -29,7 +29,7 @@ if __name__ == "__main__":
     system = HospitalETicketSystem()
 
     # Generate a ticket
-    ticket_id = system.generate_ticket("John Doe", "Dr. Smith", "2023-09-16", "10:00 AM")
+    ticket_id = system.generate_ticket("", "Dr.", "2023-09-16", "10:00 AM")
 
     # Get ticket info
     ticket_info = system.get_ticket_info(ticket_id)
